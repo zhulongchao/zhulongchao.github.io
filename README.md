@@ -8,6 +8,7 @@
 
 ### 已完成功能
 
+
 1. 调用豆瓣api显示书单列表
 2. ~~在线简历~~（未在我的个人博客上展示，因为我有pdf的版本，为避免两处都要维护，所以弃用，如果需要，可以在导航栏上添加[resume](https://github.com/willard-yuan/willard-yuan.github.io/tree/master/resume)）
 3. 添加latex公式支持([效果见博文](http://yongyuan.name/blog/decision-tree.html))
