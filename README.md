@@ -15,6 +15,7 @@
 
 ### 安装步骤
 
+
 1. 把模板下载过去，如果你没有用单独的域名的话，把`CNAME`文件删掉，然后顺便把`_posts`里的文章删掉； 
 2. 配置`_config.yml`，比如把title修改成你自己； 
 3. 修改英文页面[default.html](https://github.com/willard-yuan/willard-yuan.github.io/blob/master/_layouts/default.html)，把里面出现的固定的url更改成你的url； 
