@@ -36,7 +36,7 @@
     <header class="inner">
       {% if page.url == '/cn/' %}
       <nav>
-        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
+        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/cn/">About</a>
         <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Project</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
         <!--<a href="/yuanyong_resume_cn.pdf">Resume</a>-->
@@ -49,7 +49,7 @@
       </nav>
       {% elsif page.url == '/cn/project' %}
       <nav>
-        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
+        <a class="{% if page.category == 'about' %} selected {% endif %}" href="/cn/">About</a>
         <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Project</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
         <!--<a href="/yuanyong_resume_cn.pdf">Resume</a>-->
@@ -62,8 +62,8 @@
       </nav>
       {% else %}
       <nav>
-        <a class="{% if page.category == 'about-zh' %} selected {% endif %}" href="/cn/">关于</a>
-        <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">项目</a>
+        <a class="{% if page.category == 'about-zh' %} selected {% endif %}" href="/">关于</a>
+        <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/project">项目</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
         <!--<a href="/resume/">简历</a>-->
         <a href="/zlc_resume_cn.pdf">简历</a>
