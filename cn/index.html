@@ -1,51 +1,57 @@
 ---
 layout: default
-category: about-zh
-language: cn
-title: 朱龙超的个人主页
-description: 这是我的个人主页，目前为联想研究院计算平台架构师
+category: about
+title: zhu longchao's homepage
+description: I am zhu longchao. Jeff is my English Name
 ---
 
 <section class="about-me inner">
-  <h1>
-    <div class="book-me">
-      <!--<a class="btn btn-lg" href="/contact">联系我</a>-->
-      <a class="btn btn-lg" href="/">英文</a>
-    </div>
-    <span class="hello">格物致知</span>
-  </h1>
+    <h1>
+        <div class="book-me">
+            <a class="btn btn-lg" href="/cn/">Chinese</a>
+        </div>
+        <span class="hello">
+      <em>Play</em>
+      <small>life on hard mode.
+    </span>
+    </h1>
 
-  <blockquote>
-  <p>
-  </p>
-  </blockquote>
-  <p>
-    这是<a href="/"><span itemprop="name">朱龙超</span></a>的个人主页，目前就职于联想研究院(阿里->联想研究院)，职位为计算平台架构师(主要是CV方向)。
-  </p>
-  <p>
-    主要兴趣集中在<strong>大数据平台架构</strong>(7年+)、<strong>计算平台架构</strong>(3年+)，<strong>计算机视觉</strong>方向，以及中间件研发与业务平台研发管理</strong>等。
-  </p>
-  <p>
-    爱撸代码(<a href="https://github.com/zhulongchao">@zhu longchao<i class="icon-github"></i></a>)。闲暇之余，喜读历史，写些技术博客。
-  </p>
+    <blockquote>
+        <p>
+            There is something inside, that they can't get to, that they can't touch. That's yours.
+        </p>
+    </blockquote>
+
+    <p>
+        I am <a href="/"><span itemprop="name">zhu longchao</span></a>, a Computing Platform Architect in <a href="https://www.lenovo-mr.com/">Lenovo RT </a> (Alibaba->Lenovo).
+    </p>
+
+    <p>
+        My work interests cover <strong>Big Data Architecture</strong> (Seven years experience), <strong>Compute Platform Architecture</strong>(Three years experience), <strong>Computer Vision</strong>, and <strong>Middleware  Business Platform Development</strong>.
+    </p>
+
+    <p>
+        I support open source (@<a href="https://github.com/zhulongchao">zhu-longchao<i class="icon-github"></i>)</a>, love Linux and Java. In my free time, I dive into writing blog about technology, reading <a href="https://github.com/zhulongchao">books</a> to improve myself.
+    </p>
+
 </section>
 
 <section class="inner">
-<div class="post-recents-in-index">
-<strong>最近写作</strong>
-</div>
-<blockquote>
-<ul>
-    {% for post in site.posts limit:3 %}
-    <li class="post-list-in-index">
-    <small class="post-list-date-in-index">{{ post.date | date_to_string }}</small><a  href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
-</blockquote>
-  <p>
-    更多请查看我的<a href="{{ site.url }}/zlc_resume_cn.pdf"><strong>简历</strong></a>
-  </p>
+    <div class="post-recents-in-index">
+        <strong>Recent blog posts</strong>
+    </div>
+    <blockquote>
+        <ul>
+            {% for post in site.posts limit:3 %}
+            <li class="post-list-in-index">
+                <small class="post-list-date-in-index">{{ post.date | date_to_string }}</small><a  href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </blockquote>
+    <p>
+        If you are interested in me, you can access to my English <a href="{{ site.url }}/zlc_resume_en.pdf"><strong>resume</strong></a> for more details.
+    </p>
 </section>
 
 <!--<a href="https://github.com/willard-yuan/willard-yuan.github.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>-->
