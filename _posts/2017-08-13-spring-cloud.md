@@ -103,6 +103,26 @@ redis：setNx
 
 zookeeper ，创建节点，其他现在通过watch机制来唤醒 ，羊群效应，因为watch机制，接收了很多无关信息。
 
+### 支持spdy和Http2 ###
+
+当前service之间的调用都是基于 rest，是采用json的方式进行数据交互。是采用的http 1.0/1.2
+
+采用okhttp作为通信组件，可以同时支持spdy和http/2 两种协议
+
+spring boot支持http/2的方式
+参考：https://toutiao.io/posts/dkrn1d/preview
+
+
+### 集成非springboot项目###
+
+
+mock了一个eureka 服务提供者的客户端
+
+提供一个health的 rest服务
+
+sidecar的实现参考:
+http://blog.csdn.net/qq_32971807/article/details/53742783
+
 
 
 
