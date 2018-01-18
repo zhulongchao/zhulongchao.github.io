@@ -1,4 +1,10 @@
-推荐系统
+---
+layout: post
+title: 推荐系统链路梳理
+categories: [BigData]
+tags: BigData
+---
+
 
 1.数据通道
 
