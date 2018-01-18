@@ -1,3 +1,10 @@
+---
+layout: post
+title: 答疑解惑
+categories: [summary]
+tags: summary
+---
+
 ### kvm上跑docker的优缺点
 
 两个通道
